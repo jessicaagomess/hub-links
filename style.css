@@ -18,3 +18,62 @@
     align-items: center;
      font-family: "Hina Mincho", serif;
  }
+
+ body {
+    font-family: "Hina Mincho", serif;
+    background-color: #4e4c4c;
+ }
+ /* Cabeçalho */
+ header img {
+      width: 150px; /*largura*/
+      height: 150px; /*altura*/
+      margin-top: 30px; /*margem superior*/
+      border-radius: 80%; /*arrendodamento da borda */
+   
+ }
+
+ /* Principal */
+ main{
+     text-align: center;
+ }
+
+ main h1{
+   margin: 10px;
+   margin: 10px 0px;
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--Branco);
+ }
+
+ main p {
+   max-width: 250px;
+   margin-bottom: 30px;
+   color: var(--Branco);
+
+ }
+
+ /* Links */
+ .container > a {
+   text-decoration: none;
+   background-color: black;
+   color: var(--Branco);
+   width: 320px;
+   height: 60px;
+   margin-bottom: 15px;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 16px;
+   font-size: 1.5rem;
+
+ }
+
+ /*Rodapé */
+
+ footer{
+   margin-top: 20px;
+   text-align: center;
+ }
+
+ footer img {
+   margin: 0px 10px;
+ }
